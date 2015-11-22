@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Accept all Cookies",
+    "description": "Accept all cookies from websites and remove annoying banners about cookie policy",
+    "version": "1.0.0",
+    "author": "tmoreno",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [{
+        "js": ["data/jquery-2.1.4.min.js", "data/remove-cookie-banner.js", "chrome/index.js"],
+        "matches": ["http://*/*", "https://*/*"]
+    }]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Accept all Cookies",
+    "name": "accept-all-cookies",
+    "version": "1.0.0",
+    "description": "Accept all cookies from websites and remove annoying banners about cookie policy",
+    "main": "firefox/index.js",
+    "author": "tmoreno",
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
+    },
+    "license": "MIT"
+}

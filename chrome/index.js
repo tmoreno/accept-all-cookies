@@ -1,0 +1,1 @@
+removeCookieBanner(1);
